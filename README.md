@@ -1,27 +1,27 @@
 connect-method-override-get
 ===========================
 
-Like (Connect's)[http://www.senchalabs.org/connect/] (methodOverride)[http://www.senchalabs.org/connect/methodOverride.html], except it supports GET requests also.
+Like [Connect](http://www.senchalabs.org/connect/)'s [methodOverride](http://www.senchalabs.org/connect/methodOverride.html), except it supports GET requests also.
 
 Usage with a Connect app
 -------------------------
 
-	var app = connect();
+    var app = connect();
     app.use(connect.bodyParser());
-    app.use(require('methodOverrideGet')({key: '_method'));
+    app.use(require('methodOverrideGet')('_method'));
 
 Usage with an Express app
 -------------------------
 
-	var app = express();
+    var app = express();
     app.use(express.bodyParser());
-    app.use(require('methodOverrideGet')({key: '_method'));
+    app.use(require('methodOverrideGet')('_method'));
 
 
 MIT License
 ------------
 
-Copyright (c) 2010 by (Nathan Friedly)[http://nfriedly.com]
+Copyright (c) 2010 by [Nathan Friedly](http://nfriedly.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
