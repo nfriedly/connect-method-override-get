@@ -1,0 +1,19 @@
+{
+	"name": "connect-method-override-get",
+	"description": "Like Connect's methodOverride, except it supports GET requests also. 100% Express.js comaptible",
+	"version": "1.0.0",
+	"author": "Nathan Friedly - http://nfriedly.com/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nfriedly/connect-method-override-get"
+	},
+	"main": "index.js",
+	"keywords": [ "Connect", "Express", "methodOverride", "GET", "change method", "override method" ],
+	"license": "MIT",
+	"devDependencies": {
+		"jasmine-node": "1.0.26"
+	},
+	"scripts": {
+		"test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js ./"
+	}
+}
