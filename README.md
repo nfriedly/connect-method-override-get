@@ -4,6 +4,7 @@ connect-method-override-get
 Like [Connect](http://www.senchalabs.org/connect/)'s [methodOverride](http://www.senchalabs.org/connect/methodOverride.html), 
 except it supports GET requests also.
 
+
 Security notice
 ---------------
 
@@ -11,6 +12,11 @@ On it's own, this is wildly insecure. There's a [good reason](https://github.com
 it wasn't included in the main methodOverride, and using it is probably a bad idea unless you _really_ know what 
 you're doing. At the very least, you should includ [CSRF](http://www.senchalabs.org/connect/csrf.html)
 protection with it.
+
+Installation
+------------------------
+
+    npm install --save connect-method-override-get
 
 Usage with a Connect app
 -------------------------
